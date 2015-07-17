@@ -13,7 +13,7 @@ namespace TwigBridge\Extension\Laravel;
 
 use Twig_Extension;
 use Twig_SimpleFunction;
-use Illuminate\Html\FormBuilder;
+use Illuminate\Html\HtmlBuilder;
 use Illuminate\Support\Str;
 
 /**
