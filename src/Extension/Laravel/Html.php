@@ -13,7 +13,7 @@ namespace TwigBridge\Extension\Laravel;
 
 use Twig_Extension;
 use Twig_SimpleFunction;
-use Collective\Html\HtmlBuilder;
+use Illuminate\Html\FormBuilder;
 use Illuminate\Support\Str;
 
 /**
@@ -22,14 +22,14 @@ use Illuminate\Support\Str;
 class Html extends Twig_Extension
 {
     /**
-     * @var \Collective\Html\HtmlBuilder
+     * @var \Illuminate\Html\FormBuilder
      */
     protected $html;
 
     /**
      * Create a new html extension
      *
-     * @param \Collective\Html\HtmlBuilder
+     * @param \Illuminate\Html\FormBuilder
      */
     public function __construct(HtmlBuilder $html)
     {
